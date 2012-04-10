@@ -26,6 +26,6 @@ $test1 = Singleton::singleton();
 $test2 = Singleton::singleton();
 echo $test1===$test2;
 $fact = clone $test1;
-//echo test1;
+
 ?>
 			
